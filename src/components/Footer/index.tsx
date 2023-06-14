@@ -44,6 +44,7 @@ const Footer: React.FC = () => {
         <FooterLogo>
           <FooterLogoImg src={FooterLogoAloneImage} alt="footer-logo" />
         </FooterLogo>
+
         <FooterMenu>
           <FooterMenuItem>
             <FooterMenuItemList>

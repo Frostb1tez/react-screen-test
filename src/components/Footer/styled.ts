@@ -9,6 +9,9 @@ export const FixedFooter = styled.footer`
   width: 100%;
   background-color: #fff;
   height: 120px;
+  @media (max-width: 768px) {
+    height: auto;
+  }
 `
 
 export const FooterContainer = styled.div`
@@ -16,6 +19,11 @@ export const FooterContainer = styled.div`
   align-items: center;
   padding: 0 40px;
   height: 100%;
+  @media (max-width: 768px) {
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `
 export const FooterLogo = styled.div`
   display: flex;
@@ -31,23 +39,39 @@ export const FooterMenu = styled.div`
   height: 100%;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `
 export const FooterMenuItem = styled.div`
   display: flex;
   align-items: center;
   height: 100%;
   padding: 0 20px;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
 `
 
 export const FooterMenuItemList = styled.ul`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-inline-start: 0;
+    margin-block: 0;
+  }
 `
 
 export const FooterMenuItemListItem = styled.li`
   display: flex;
   margin: 0 20px;
+  @media (max-width: 768px) {
+    margin: 3px 0;
+  }
 `
 
 export const FooterMenuCta = styled.div`
@@ -55,9 +79,16 @@ export const FooterMenuCta = styled.div`
   align-items: center;
   height: 100%;
   padding: 0 20px;
+  @media (max-width: 768px) {
+    padding: 15px 0;
+  }
 `
 export const FooterSocialImage = styled(Image)`
   width: 60px;
   height: 60px;
   margin-right: 30px;
+  @media (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
 `
