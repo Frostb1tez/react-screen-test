@@ -1,21 +1,8 @@
-import styled from 'styled-components'
+import { SectionContainer } from './styled'
+import { SectionProps } from './type'
 
-const SectionContainer = styled.section`
-  padding: 40px 80px;
-  &:nth-child(odd) {
-    background-color: #fff;
-  }
-  &:nth-child(even) {
-    background-color: #f5f5f5;
-  }
-`
-
-type SectionProps = {
-  children: React.ReactNode
-}
-
-const Section: React.FC<SectionProps> = ({ children }) => {
-  return <SectionContainer>{children}</SectionContainer>
+const Section: React.FC<SectionProps> = ({ children, backgroudImage }) => {
+  return <SectionContainer backgroudImage={backgroudImage}>{children}</SectionContainer>
 }
 
 export default Section
