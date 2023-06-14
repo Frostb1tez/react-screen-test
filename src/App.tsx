@@ -1,15 +1,7 @@
-import Section from './components/Section'
-import AppLayout from './layouts/app'
+import AppRouter from './router'
 
 function App() {
-  return (
-    <AppLayout>
-      <Section>layout</Section>
-      <Section>layout</Section>
-      <Section>layout</Section>
-      <Section>layout</Section>
-    </AppLayout>
-  )
+  return <AppRouter />
 }
 
 export default App
