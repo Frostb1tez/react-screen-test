@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import Section from './components/Section'
 import AppLayout from './layouts/app'
 
 function App() {
   return (
     <AppLayout>
-      <div>layout</div>
-      <div>layout</div>
-      <div>layout</div>
+      <Section>layout</Section>
+      <Section>layout</Section>
+      <Section>layout</Section>
+      <Section>layout</Section>
     </AppLayout>
   )
 }
