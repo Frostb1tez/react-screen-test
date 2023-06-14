@@ -3,7 +3,7 @@ import Image from '../Image'
 
 export const FixedFooter = styled.footer`
   z-index: 100;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   width: 100%;
