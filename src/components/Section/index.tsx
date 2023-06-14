@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const SectionContainer = styled.section`
-  padding: 40px;
+  padding: 40px 80px;
   &:nth-child(odd) {
     background-color: #fff;
   }

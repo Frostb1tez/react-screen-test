@@ -17,7 +17,7 @@ export const FixedFooter = styled.footer`
 export const FooterContainer = styled.div`
   display: flex;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 80px;
   height: 100%;
   @media (max-width: 768px) {
     padding: 0 20px;
